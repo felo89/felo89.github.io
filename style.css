@@ -1,0 +1,46 @@
+html, body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+  margin: 0px;
+  padding: 0px;
+
+  font-size: 16px;
+  overflow-y: auto;
+}
+
+.title-bg {
+  display: inherit;
+  padding-left: 10rem;
+  width: 100vw;
+  height: 8rem;
+  background-color: black;
+  color: white;
+}
+
+.profile-wrapper {
+  position: absolute;
+  margin-top: -5rem;
+  width: 10rem;
+  height: 10rem;
+
+  border: 4px solid white;
+  box-sizing: border-box;
+  background-clip: border-box;
+  border-radius: 50%;
+
+  background-color: white;
+  z-index: 99;
+}
+
+.profile-photo {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+}
+
+main {
+  background-color: #232323;
+  height: calc(100vh - 8rem);
+}
